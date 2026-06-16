@@ -1,0 +1,55 @@
+body { 
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #367700;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif, monospace;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#cursos {
+    color: #ffffff;
+    font-family: 'Rakkas', Arial, sans-serif;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 5px solid red;
+    background: linear-gradient(to right, #ff1e00, #0059ff, #ff87ff);
+}
+
+#cursosp {
+    color: #333333; /* A cor campeã para leitura no seu layout */
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 18px; /* Tamanho ideal e elegante para o parágrafo */
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
