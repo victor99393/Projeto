@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Barra superior */
+
+.topo-governo{
+    background:#d9d9d9;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+}
+
+.topo-governo li{
+    margin-right:15px;
+}
+
+.topo-governo a{
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.topo-governo a:hover{
+    color:#00811f;
+}
+
+#usuario{
+    margin-left:auto;
+}
+
+#login{
+    margin-left:15px;
+}
+
+#login a{
+    background:#00811f;
+    color:white;
+    padding:8px 18px;
+    border-radius:6px;
+}
+
+#usuario a{
+    color:#00811f;
+    font-weight:bold;
+}
+
+/* Cabeçalho igual ao index */
+
+header{
+    background:#00811f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+#sigla{
+    font-size:20px;
+    font-weight:bold;
+}
+
+header h1{
+    font-size:50px;
+    margin-top:10px;
+}
+
+#ministerio{
+    margin-top:10px;
+}
+
+/* Menu */
+
+nav{
+    background:#005d14;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* Conteúdo */
+
+section{
+    padding:40px;
+}
+
+#cursos{
+    text-align:center;
+    font-family:'Rakkas', serif;
+    font-size:50px;
+    margin-bottom:25px;
+    color:#00811f;
+}
+
+#cursosp{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+    font-size:20px;
+}
+
+#informatica{
+    color:#0059ff;
+    text-align:center;
+    margin-top:50px;
+    font-size:36px;
+}
+
+#informaticap{
+    width:80%;
+    margin:20px auto;
+    background:#e8f0ff;
+    border-left:8px solid #0059ff;
+    border-radius:10px;
+    padding:20px;
+    font-size:18px;
+}
+
+#administracao{
+    color:#ff1e00;
+    text-align:center;
+    margin-top:50px;
+    font-size:36px;
+}
+
+#administracaop{
+    width:80%;
+    margin:20px auto;
+    background:#ffe9e5;
+    border-left:8px solid #ff1e00;
+    border-radius:10px;
+    padding:20px;
+    font-size:18px;
+}
+
+#vestuario{
+    color:#ff4fd8;
+    text-align:center;
+    margin-top:50px;
+    font-size:36px;
+}
+
+#vestuariop{
+    width:80%;
+    margin:20px auto;
+    background:#ffe9fa;
+    border-left:8px solid #ff4fd8;
+    border-radius:10px;
+    padding:20px;
+    font-size:18px;
+}
