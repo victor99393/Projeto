@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Portal IFPI</title>
+
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+
+    <main class="login">
+
+        <h1>Login</h1>
+
+        <h2 id="erro">Faça seu login</h2>
+
+        <form id="formLogin">
+
+            <label for="matricula">Matrícula</label>
+
+            <input
+                type="text"
+                id="matricula"
+                placeholder="Digite sua matrícula"
+                autocomplete="username"
+                required
+            >
+
+            <label for="senha">Senha</label>
+
+            <input
+                type="password"
+                id="senha"
+                placeholder="Digite sua senha"
+                autocomplete="current-password"
+                required
+            >
+
+            <label class="mostrar-senha">
+                <input type="checkbox" id="mostrarSenha">
+                Mostrar senha
+            </label>
+
+            <button type="submit">
+                Entrar
+            </button>
+
+            <a href="index.html">
+                Voltar ao Portal
+            </a>
+
+        </form>
+
+    </main>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
